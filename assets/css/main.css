@@ -591,7 +591,6 @@ header.nav.hide-menu {
 
 .home-inner {
   display: table;
-  height: calc(100vh - 50px);
   padding-top: 80px;
   width: 100%;
 }
