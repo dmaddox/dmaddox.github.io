@@ -652,7 +652,8 @@ $(window).load(function(){
 			portImgArea = portfolioModal.find('.model-img'),
 			portTitle = portfolioModal.find('.modal-content .title'),
 			portContent = portfolioModal.find('.modal-content .m-content'),
-			portLink = portfolioModal.find('.modal-footer .modal-action');
+			portLink = portfolioModal.find('.modal-footer .modal-demo'),
+			gitLink = portfolioModal.find('.modal-footer .modal-repo');
 		
 		$('#protfolio-msnry').delegate('a.modal-trigger', 'click', function(e){
 			e.preventDefault();
@@ -666,7 +667,8 @@ $(window).load(function(){
 					var imgSrc = $this.data('image-source'),
 					title = $this.data('title'),
 					content = $this.data('content'),
-					demoLink = $this.data('demo-link');
+					demoLink = $this.data('demo-link'),
+					repoLink = $this.data('repo-link');
 
 
 					if ( imgSrc ) {
@@ -677,6 +679,7 @@ $(window).load(function(){
 					portTitle.text(title);
 					portContent.text(content);
 					portLink.attr('href', demoLink);
+					gitLink.attr('href', repoLink);
 				}
 			});
 		});
