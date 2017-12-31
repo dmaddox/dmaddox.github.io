@@ -1,16 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
   <title>Danielle Maddox | Full Stack Web Developer</title>
-  <meta name="description" content="">
+  <meta name="Portfolio site for Danielle Maddox, Full Stack Web Developer." content="Front end development, back end development, full stack development. Portfolio, projects, skills, education.">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
   <!-- Favicon-->
@@ -32,21 +25,10 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
 
-  <!-- Choose your default colors -->
-  <!-- <link rel="stylesheet" href="assets/css/colors/color1.css"> -->
-  <!-- <link rel="stylesheet" href="assets/css/colors/color2.css"> -->
-  <!-- <link rel="stylesheet" href="assets/css/colors/color3.css"> -->
-  <!-- <link rel="stylesheet" href="assets/css/colors/color4.css"> -->
-  <!-- <link rel="stylesheet" href="assets/css/colors/color5.css"> -->
-  <!-- <link rel="stylesheet" href="assets/css/colors/color6.css"> -->
+  <!-- Color Theme -->
   <link rel="stylesheet" href="assets/css/colors/color7.css">
-  <!-- <link rel="stylesheet" href="assets/css/colors/color8.css"> -->
 
-  <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-  <![endif]-->
 </head>
-
 <body>
 
   <!-- Preloader --> 
@@ -58,90 +40,63 @@
         </div>    
     </div><!--preloader end-->
 
-  <!-- Main Container -->
-  <main id="app" class="main-section">
+   <!-- Main Container -->
+   <main id="app" class="main-section">
+  
     <!-- header navigation start -->
     <header id="navigation" class="root-sec white nav">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="nav-inner">
-              <nav class="primary-nav">
-                <div class="clearfix nav-wrapper">
-                  <a href="#home" class="left brand-logo menu-smooth-scroll" data-section="#home"><!-- <img src="images/logo.png" alt=""> -->
-                  </a>
-                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-                  <!-- <ul class="right static-menu">
-                    <li class="search-form-li">
-                      <a id="initSearchIcon" class=""><i class="mdi-action-search"></i> </a>
-                      <div class="search-form-wrap hide">
-                        <form action="#" class="">
-                          <input type="search" class="search">
-                          <button type="submit"><i class="mdi-action-search"></i>
-                          </button>
-                        </form>
-                      </div>
-                    </li>
-                    <li>
-                      <a class="dropdown-button blog-submenu-init" href="#!" data-activates="dropdown1">
-                        <i class="mdi-navigation-more-vert right"></i>
-                      </a>
-                    </li>
-                  </ul> -->
-                  <ul class="inline-menu side-nav" id="mobile-demo">
-
-                  <!-- Mini Profile // only visible in Tab and Mobile -->
-                    <li class="mobile-profile">
-                     <div class="profile-inner">
-                        <div class="pp-container">
-                            <img src="images/person.png" alt="">
-                        </div>
-                        <h3>Danielle Maddox</h3>
-                        <h5>Full Stack Web Developer</h5>
-                      </div>
-                    </li><!-- mini profile end-->
-
-
-                    <li><a href="#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>About Me / Contact</a>
-                    </li>
-                    <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>Portfolio</a>
-                    </li>
-                    <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Skills</a>
-                    </li>
-                    <li><a href="#education" data-section="#education" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Education</a>
-                    </li>
-                  </ul>
+        <div class="row nav-inner"> <!-- navigation row -->
+          <nav class="primary-nav">
+            <div class="clearfix nav-wrapper">
+              <!-- start of left side of nav -->
+              <div class="col-sm-6 logo-desc">
+                <div class="row brand-logo">
+                  <div class="col logo-name">
+                    <a href="#home" class="left menu-smooth-scroll" data-section="#home">Danielle Maddox
+                    </a>
+                  </div>
                 </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- .container end -->
+                <div class="row">
+                  <div class="col logo-desc left menu-smooth-scroll">
+                    Full Stack Web Developer
+                  </div>
+                </div>
+              </div> <!-- end of left side of nav -->
+
+              <!-- start of right side of nav -->
+              <div class="col-sm-6">
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <ul class="inline-menu side-nav" id="mobile-demo">
+                  <!-- Mini Profile // only visible in Tab and Mobile -->
+                  <li class="mobile-profile">
+                    <div class="profile-inner">
+                      <div class="pp-container">
+                        <img src="images/person.png" alt="">
+                      </div>
+                      <h3>Danielle Maddox</h3>
+                      <h5>Full Stack Web Developer</h5>
+                    </div>
+                  </li><!-- mini profile end-->
+                  <li><a href="#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>About Me / Contact</a>
+                  </li>
+                  <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>Portfolio</a>
+                  </li>
+                  <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Skills</a>
+                  </li>
+                </ul>
+              </div> <!-- end of right side of nav -->
+            </div> <!-- end of clearfix wrapper -->
+          </nav>
+        </div> <!-- end navigation row -->
+      </div> <!-- .container end -->
     </header>
     <!-- #header  navigation end -->
 
-
+    
 
     <!-- About Section start -->
     <section id="about" class="scroll-section root-sec padd-tb-60 grey lighten-5 about-wrap">
-      <!-- Hi I'm Danielle start -->
-      <div id="home" class="sec-overlay">
-        <div class="container">
-          <div class="row" id="home">
-            <div class="col-sm-12">
-              <div class="home-inner">
-                  <div class="center-align home-content">
-                    <h1 class="home-title">HI! I'm <span>Danielle Maddox</span></h1>
-                    <h2 class="home-subtitle">Full Stack Web Developer</h2>
-
-                  </div>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      <!-- Hi I'm Danielle end -->
       <div class="container">
         <div class="row">
           <div class="clearfix about-inner">
@@ -152,10 +107,11 @@
                 <p> I am a full stack developer living in Austin, Texas.
                 <br />
                  <br />
-                I have worked in various aspects of tech: from SEO, to customer success, to operations, to product management. This gives me a unique perspective as I build user-centric solutions.  
-                 <br />
-                  <br />
-                Please take a look at my work, and reach out to start a conversation.</p>
+                
+                This site is a growing collection of my professional work, hobbies and interests. I fill my time by collaborating with creative and technical people (are there any other kinds?) and quite enjoy it. 
+          <br />
+                <br />
+              Take a look around! If you are so inclined, strike up a conversation. </p>
                 <!-- <a class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i> Download Resume</a> -->
               </div>
             </div>
@@ -217,8 +173,8 @@
       <div id="portfolioModal" class="modal white">
         <div class="model-img"></div>
         <div class="modal-content">
-          <h2 class="title">Lorem ipsum dolor sit fugit dolore.</h2>
-          <p class="m-content">A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior.</p>
+          <h2 class="title"></h2>
+          <p class="m-content"></p>
         </div>
 
         <div class="modal-footer">
@@ -292,6 +248,8 @@
     <!-- #portfolio Section end -->
 
 
+
+    
     <!-- Resume Section start -->
     <section id="resume" class="scroll-section ">
       <section id="skill" class="root-sec white skill-wrap">
@@ -299,258 +257,9 @@
         <div class="container">
           <div class="row">
             <div class="clearfix skill-inner">
-              <div class="col-sm-12 col-md-3">
-                <div class="skill-left">
-                  <h2 class="title">Skills</h2>
-                  
-                </div>
-              </div>
-
-              <!-- skills container -->
-              <div class="col-sm-12 col-md-6 col-md-offset-1">
-                <div class="skill-right">
-                  <div id="skillSlider" class="clearfix skill-graph">
-
-                    <!-- single skill -->
-                    <div class="single-skill">
-                      <div class="after-li">
-                        <div class="singel-hr">
-                          <div class="singel-hr-inner" data-height="100%">
-                            <div class="skill-visiable">
-                              <span class="skill-title">Photoshop</span>
-                              <div class="hr-wrap">
-                                <div class="hrc"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <span class="skill-count">100%</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /single skill-->
-
-                    <!-- single skill -->
-                    <div class="single-skill">
-                      <div class="after-li">
-                        <div class="singel-hr">
-                          <div class="singel-hr-inner" data-height="60%">
-                            <div class="skill-visiable">
-                              <span class="skill-title">JavaScript</span>
-                              <div class="hr-wrap">
-                                <div class="hrc"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <span class="skill-count">80%</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /single skill-->
-
-                    <!-- single skill -->
-                    <div class="single-skill">
-                      <div class="after-li">
-                        <div class="singel-hr">
-                          <div class="singel-hr-inner" data-height="85%">
-                            <div class="skill-visiable">
-                              <span class="skill-title">CSS</span>
-                              <div class="hr-wrap">
-
-                                <div class="hrc"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <span class="skill-count">75%</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /single skill-->
-
-                    <!-- single skill -->
-                    <div class="single-skill">
-                      <div class="after-li">
-                        <div class="singel-hr">
-                          <div class="singel-hr-inner" data-height="65%">
-                            <div class="skill-visiable">
-                              <span class="skill-title">HTML</span>
-                              <div class="hr-wrap">
-                                <div class="hrc"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <span class="skill-count">85%</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /single skill-->
-
-                    <!-- single skill -->
-                    <div class="single-skill">
-                      <div class="after-li">
-                        <div class="singel-hr">
-                          <div class="singel-hr-inner" data-height="35%">
-                            <div class="skill-visiable">
-                              <span class="skill-title">Node.js</span>
-                              <div class="hr-wrap">
-                                <div class="hrc"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <span class="skill-count">65%</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /single skill-->
-
-                    <!-- single skill -->
-                    <div class="single-skill">
-                      <div class="after-li">
-                        <div class="singel-hr">
-                          <div class="singel-hr-inner" data-height="85%">
-                            <div class="skill-visiable">
-                              <span class="skill-title">Bootstrap</span>
-                              <div class="hr-wrap">
-
-                                <div class="hrc"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <span class="skill-count">55%</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /single skill-->
-
-                    <!-- single skill -->
-                    <div class="single-skill">
-                      <div class="after-li">
-                        <div class="singel-hr">
-                          <div class="singel-hr-inner" data-height="60%">
-                            <div class="skill-visiable">
-                              <span class="skill-title">Materialize</span>
-                              <div class="hr-wrap">
-                                <div class="hrc"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <span class="skill-count">50%</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /single skill-->
-
-                    <!-- single skill -->
-                    <div class="single-skill">
-                      <div class="after-li">
-                        <div class="singel-hr">
-                          <div class="singel-hr-inner" data-height="85%">
-                            <div class="skill-visiable">
-                              <span class="skill-title">React</span>
-                              <div class="hr-wrap">
-
-                                <div class="hrc"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <span class="skill-count">15%</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /single skill-->
-
-
-                    <!-- single skill -->
-                  </div>
-                </div>
-              </div>
-              <!-- /skills container -->
-            </div>
-          </div>
-          <div class="btn-wrapp skl-ctrl">
-            <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-left"><i class="mdi-navigation-chevron-left "></i></a>
-            <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-right"><i class="mdi-navigation-chevron-right "></i></a>
-          </div>
-        </div>
-      </div>
-        <!-- .container end -->
-      </section>
-
-
-      <section id="education" class="root-sec grey lighten-5 padd-tb-120 education-wrap">
-        <div class="container">
-          <div class="row">
-            <div class="education-inner">
-              <div class="col-sm-12 col-md-10 card-box-wrap">
-                <div class="row">
-                  <div class="clearfix section-head education-text">
-                    <div class="col-sm-12">
-                      <h2 class="title">education</h2>
-                    
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="overflow-hidden">
-                      <div class="row">
-                        <div id="educationSlider" class="clearfix card-element-wrapper">
-
-                        <!-- single education -->
-                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
-                            <div class="card">
-                              <div class="card-image waves-effect waves-block waves-light">
-                                <h2 class="left-align card-title-top">20011 - 2012</h2>
-                                <div class="card-img-wrap">
-                                  <img class="activator" src="http://placehold.it/400x300" alt="">
-                                </div>
-                              </div>
-                              <div class="card-content">
-                                <span class="card-title activator brand-text">Masters of Science<i class="mdi-navigation-more-vert right"></i></span>
-                                <p>Oxford University</p>
-                              </div>
-                              <!-- Reveal content-->
-                              <div class="card-reveal">
-                                <div class="rev-title-wrap">
-                                  <span class="card-title activator brand-text">Masters of Science<i class="mdi-navigation-close right"></i></span>
-                                  <p>Oxford University</p>
-                                </div>
-                                <p class="rev-content">
-                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
-                                </p>
-                              </div>
-                            </div>
-                          </div> <!-- single education end -->
-
-
-                        <!-- single education -->
-                          <div class="col-sm-4 single-card-box">
-                            <div class="card">
-                              <div class="card-image waves-effect waves-block waves-light">
-                                <h2 class="left-align card-title-top">1995 - 2005</h2>
-                                <div class="card-img-wrap">
-                                  <img class="activator" src="http://placehold.it/400x300" alt="">
-                                </div>
-                              </div>
-                              <div class="card-content">
-                                <span class="card-title activator brand-text">O Level<i class="mdi-navigation-more-vert right"></i></span>
-                                <p>Oxford School</p>
-                              </div>
-                              <div class="card-reveal">
-                                <div class="rev-title-wrap">
-                                  <span class="card-title activator brand-text">O Level<i class="mdi-navigation-close right"></i></span>
-                                  <p>Oxford School</p>
-                                </div>
-                                <p class="rev-content">
-                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
-                                </p>
-                              </div>
-                            </div>
-                          </div> <!-- single education -->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-             
+              <!-- *** -->
+              <!-- WIP -->
+              <!-- *** -->
             </div>
           </div>
         </div>
@@ -559,28 +268,7 @@
     <!-- #resume Section end -->
 
 
-
-
-                <div class="clearfix contact-form">
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> <!-- ./container end -->
-      <div class="section-call-to-area">
-        <div class="container">
-          <div class="row">
-            <a href="#home" class="btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden" data-section="#home">
-              <i class="mdi-navigation-expand-less"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- #contact Section end -->
-
+    
     <!-- Footer Section end -->
     <footer id="footer" class="root-sec white root-sec footer-wrap">
       <div class="container">
@@ -603,6 +291,7 @@
     </footer>
     <!-- #footer end -->
 
+
   </main>
   <!-- Main Container end-->
 
@@ -624,6 +313,6 @@
   <script src="assets/libs/sweetalert/sweet-alert.min.js"></script>
   <script src="assets/js/common.js"></script>
   <script src="assets/js/main.js"></script>
-</body>
 
+</body>
 </html>

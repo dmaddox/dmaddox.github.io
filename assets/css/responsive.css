@@ -78,7 +78,10 @@ TOC :
     .primary-nav .brand-logo {
         display: none;
     }
-
+    
+    .primary-nav .logo-desc {
+        display: none;
+    }
 
     .side-nav li a, .side-nav li.current a, .side-nav li a:hover {
         border: none;

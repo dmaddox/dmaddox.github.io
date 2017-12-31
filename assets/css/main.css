@@ -396,6 +396,7 @@ header.nav {
     z-index: 999;
     -webkit-transition: top .5s;
             transition: top .5s;
+
 }
 header.nav.hide-menu {
     top: -90px;
@@ -405,16 +406,22 @@ header.nav.hide-menu {
     line-height: inherit;
     background-color: transparent!important;
     box-shadow: none;
+
 }
 
 .primary-nav .brand-logo {
     position: static;
-    font-size: inherit;
+    font-size: 24px;
+    margin: 25px 5px 0;
 }
 
-.primary-nav .brand-logo img {
-  height: 32px;
-  margin: 25px 5px 0;
+.logo-desc {
+  color: #000;
+  font-size: 14px;
+  font-style: thin;
+}
+.logo-name a {
+  color: #000;
 }
 
 .mobile-profile{
