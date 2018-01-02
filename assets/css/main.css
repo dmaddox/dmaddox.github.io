@@ -101,6 +101,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -235,7 +236,7 @@ body {
 }
 .padd-tb-60 {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 60px;    
 }
 
 .padd-tb-73 {
@@ -743,113 +744,27 @@ header.nav.hide-menu {
 .skill-left p {
     line-height: 30px;
 }
+.skills_ul {
+  width: 100%;
+}
+.skills_ul li {
+  float: left;
+  width: 33%;
+  margin-right: .33%;
+  margin-bottom: .33%;
+  color: #000;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.skills-icon i {
+  font-size: 4em;
+  margin: auto;
+}
+/*.skills-icon p {
+  text-align: center;
+}*/
 
-.skill-graph {
-    margin-bottom: 0px;
-}
 
-.skill-graph .single-skill {
-    /*float: left;*/
-    height: 490px;
-    width: 60px;
-    position: relative;
-}
-
-.after-li {
-    position: absolute;
-    width: 100%;
-    bottom: 10px;
-    height: 350px;
-}
-
-.singel-hr {
-    position: relative;
-    height: 100%;
-    padding-bottom: 50px;
-}
-
-.skill-title,
-.skill-count {
-    width: 100%;
-    display: block;
-    text-align: center;
-    font-weight: 400;
-    position: absolute;
-}
-
-.skill-title {
-    font-size: 13px;
-    line-height: 15px;
-}
-
-.skill-count {
-    font-size: 15px;
-}
-
-.skill-title {
-    top: -100px;
-}
-.skill-count {
-    bottom: 0;
-}
-
-.singel-hr-inner {
-    position: absolute;
-    width: 100%;
-    bottom: 33px;
-    border-radius: 2px;
-    height: 0px;
-    -webkit-transition: all 1.2s;
-            transition: all 1.2s;
-    -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-            transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-}
-
-.skill-visiable {
-    position: relative;
-}
-
-.hr-wrap {
-    height: 73px;
-    width: 1px;
-    position: absolute;
-    top: -73px;
-    left: 50%;
-}
-
-.hrc:after {
-    content: '';
-    width: 7px;
-    height: 7px;
-    position: absolute;
-    border-radius: 50%;
-    top: 0;
-    left: -3px;
-}
-
-.root-sec {
-    position: relative;
-}
-
-.btn-wrapp {
-    position: absolute;
-    right:1.4%;
-    top:55.8%;
-}
-.btn-wrapp a {
-    display: block;
-    margin-bottom: 20px;
-}
-
-.btn-wrapp a:last-child {
-    margin-bottom: 0;
-}
-
-.skill-wrap .btn-wrapp {
-    bottom: 7.5%;
-    top: auto;
-    right: 4%;
-}
 
 /* --------------------------------- */
 /* 7. Experience Section Styles
@@ -1550,7 +1465,7 @@ span.num {
   color: #0976b4;
 }
 
-.social-icons li a.twitter:hover {
+.social-icons li a.github:hover {
   color: #55acee;
 }
 

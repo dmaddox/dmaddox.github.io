@@ -12,15 +12,16 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/font/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/font/font-mfizz/font-mfizz.css">
   <link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" media="screen,projection" />
   <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen,projection" />
 
   <link rel="stylesheet" href="assets/css/animate.min.css" media="screen,projection" />
   <link rel="stylesheet" href="assets/libs/sweetalert/sweet-alert.css" media="screen,projection" />
 
-  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
+<!--   <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
   <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
-  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection" /> -->
 
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
@@ -83,7 +84,6 @@
                   <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>Portfolio</a>
                   </li>
                   <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Skills</a>
-                  </li>
                 </ul>
               </div> <!-- end of right side of nav -->
             </div> <!-- end of clearfix wrapper -->
@@ -128,20 +128,20 @@
               <div class="person-info">
                 <h3 class="about-subtitle">Contact</h3>
                 <h5>Danielle Maddox</h5>
-                <h5>dmaddox@gmail.com</h5>
+                <h5><a href="mailto:dmaddox@gmail.com">dmaddox@gmail.com</a></h5>
                 <h5>Austin, Texas</h5>
               </div>
 
               <div class="about-social">
                 <ul>
                   <li>
-                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-twitter"></i></a>
+                    <a href="mailto:dmaddox@gmail.com" class="btn-floating waves-effect waves-light white"><i class="fa fa-envelope"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/dmaddx/" target="_blank" class="btn-floating waves-effect waves-light white"><i class="fa fa-linkedin"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-pinterest"></i></a>
+                    <a href="https://github.com/dmaddox" target="_blank" class="btn-floating waves-effect waves-light white"><i class="fa fa-github"></i></a>
                   </li>
                 </ul>
               </div>
@@ -157,7 +157,7 @@
 
 
     <!-- Portfolio Section start -->
-    <section id="portfolio" class="scroll-section root-sec white portfolio-wrap">
+    <section id="portfolio" class="scroll-section root-sec white portfolio-wrap padd-tb-60">
       <div class="padd-tb-60 brand-bg portfolio-top">
         <div class="portfolio-inner">
           <div class="container">
@@ -257,9 +257,41 @@
         <div class="container">
           <div class="row">
             <div class="clearfix skill-inner">
-              <!-- *** -->
-              <!-- WIP -->
-              <!-- *** -->
+              <div class="col-sm-12 col-md-3">
+                <div class="skill-left">
+                  <h2 class="title">Skills</h2>
+                  <p class="regular-text">A quick look into what I like to do.</p>
+                </div>
+              </div>
+
+              <!-- skills container -->
+              <div class="col-sm-12 col-md-8 col-md-offset-1">
+                <div class="skill-right">
+                  <div id="skill-table" class="clearfix skill-table">
+                    <!-- *** -->
+                    <!-- WIP -->
+                    <ul class="skills_ul">
+                      <li class="skills-icon"><i class="icon-javascript"></i><p>JavaScript</p>
+                      </li>
+                      <li class="skills-icon"><i class="icon-jquery"></i><p>JQuery</p>
+                      </li>
+                      <li class="skills-icon"><i class="icon-nodejs"></i><p>Node.js</p>
+                      </li>
+                      <li class="skills-icon"><i class="icon-css3"></i><p>CSS3</p>
+                      </li>
+                      <li class="skills-icon"><i class="icon-html5"></i><p>HTML5</p>
+                      </li>
+                      <li class="skills-icon"><i class="icon-bootstrap"></i><p>Bootstrap</p>
+                      </li>
+                      <li class="skills-icon"><i class="fa fa-git-square"></i><p>Git</p>
+                      </li>
+                      <li class="skills-icon"><i class="fa fa-github"></i><p>GitHub</p>
+                      </li>
+                    </ul>
+                    <!-- *** -->
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -276,9 +308,11 @@
           <div class="col-sm-12">
             <div class="clearfix footer-inner">
               <ul class="left social-icons">
-                <li><a href="#" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkdin"><i class="fa fa-linkedin"></i></a>
+                <li><a href="https://www.linkedin.com/in/dmaddx/" target="_blank" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="LinkedIn"><i class="fa fa-linkedin"></i></a>
                 </li>
-                <li><a href="#" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                <li><a href="https://github.com/dmaddox" target="_blank" class="tooltips tooltipped github" data-position="top" data-delay="50" data-tooltip="GitHub"><i class="fa fa-github"></i></a>
+                </li>
+                <li><a href="https://github.com/dmaddox" target="_blank" class="tooltips tooltipped github" data-position="top" data-delay="50" data-tooltip="GitHub"><i class="icon-javascript-alt"></i></a>
                 </li>
               </ul> <!-- ./social icons end -->
               <div class="right copyright">
