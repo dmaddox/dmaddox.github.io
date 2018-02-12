@@ -652,6 +652,7 @@ $(window).load(function(){
 			portImgArea = portfolioModal.find('.model-img'),
 			portTitle = portfolioModal.find('.modal-content .title'),
 			portContent = portfolioModal.find('.modal-content .m-content'),
+			portTech = portfolioModal.find('.modal-content .m-tech'),
 			portLink = portfolioModal.find('.modal-footer .modal-demo'),
 			gitLink = portfolioModal.find('.modal-footer .modal-repo');
 		
@@ -667,6 +668,7 @@ $(window).load(function(){
 					var imgSrc = $this.data('image-source'),
 					title = $this.data('title'),
 					content = $this.data('content'),
+					tech = $this.data('tech').split(","),
 					demoLink = $this.data('demo-link'),
 					repoLink = $this.data('repo-link');
 
@@ -678,6 +680,13 @@ $(window).load(function(){
 
 					portTitle.text(title);
 					portContent.text(content);
+					portTech.text("");
+					// write out each tech item as a list item
+					for (var i = 0; i < tech.length; i++) {
+						var techItem = "<li>" + tech[i] + "</li>"
+						portTech.append(techItem);
+					}
+					
 					portLink.attr('href', demoLink);
 					gitLink.attr('href', repoLink);
 				}

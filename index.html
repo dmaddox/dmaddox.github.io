@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="assets/css/responsive.css">
 
   <!-- Color Theme -->
-  <link rel="stylesheet" href="assets/css/colors/color7.css">
+  <link rel="stylesheet" href="assets/css/colors/color1.css">
 
 </head>
 <body>
@@ -96,7 +96,7 @@
     
 
     <!-- About Section start -->
-    <section id="about" class="scroll-section root-sec padd-tb-60 grey lighten-5 about-wrap">
+    <section id="about" class="scroll-section root-sec add-about white padd-about lighten-5 about-wrap">
       <div class="container">
         <div class="row">
           <div class="clearfix about-inner">
@@ -104,15 +104,10 @@
             <div class="col-sm-12 col-md-7">
               <div class="person-about">
                 <h3 class="about-subtitle">My Story</h3>
-                <p> I am a full stack developer living in Austin, Texas.
-                <br />
-                 <br />
-                
-                This site is a growing collection of my professional work, hobbies and interests. I fill my time by collaborating with creative and technical people (are there any other kinds?) and quite enjoy it. 
-          <br />
-                <br />
-              Take a look around! If you are so inclined, strike up a conversation. </p>
-                <!-- <a class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i> Download Resume</a> -->
+                <p> Hi! I am a full stack developer living in Austin, Texas. </p>
+                <p>I have worked in various aspects of tech: from SEO, to customer success, to operations, to product management. My depth and range of knowledge provides me with a unique perspective as I build user-centric solutions.</p>
+                <p>I combine my product background with technical expertise to design functional, impactful code. </p>
+                <p>Take a look around! If you are so inclined, strike up a conversation.</p>
               </div>
             </div>
             <!-- about me description -->
@@ -130,6 +125,7 @@
                 <h5>Danielle Maddox</h5>
                 <h5><a href="mailto:dmaddox@gmail.com">dmaddox@gmail.com</a></h5>
                 <h5>Austin, Texas</h5>
+                <!-- <a class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i> Download Resume</a> -->
               </div>
 
               <div class="about-social">
@@ -145,8 +141,10 @@
                   </li>
                 </ul>
               </div>
+
             </div>
             <!-- about me info -->
+
 
           </div>
         </div>
@@ -175,6 +173,13 @@
         <div class="modal-content">
           <h2 class="title"></h2>
           <p class="m-content"></p>
+          <p class="tech">
+            <div class="m-label">Tech:</div>
+            <div class="m-tech">
+              <ul></ul>
+            </div>
+          </p>
+          
         </div>
 
         <div class="modal-footer">
@@ -188,47 +193,47 @@
           <div class="row">
             <div class="col-sm-12">
               <ul class="clearfix protfolio-item" id="protfolio-msnry">
+
+              <!-- Single Portfolio-->
+              <li class="single-port-item category-2 category-1">
+                <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-title="Size" data-content="Order the right size the first time with our database of brand-specific sizes for various types of clothing. Input your measurements to see your size!" data-tech="JavaScript, MERN, MySQL, Express, React, Node.js, ES6, JSX, Sequelize, Bootstrap, Passport.js, Herokuapp" data-demo-link="https://mighty-depths-40970.herokuapp.com/" data-repo-link="https://github.com/hlivingston07/size">
+                  <div class="protfolio-image">
+                    <img src="images/thumb_size.png" alt="Size">
+                    <div class="protfolio-content waves-effect waves-block waves-light">
+                      <div class="protfolio-content__inner">
+                        <h2 class="p-title">Size</h2>
+                      </div>
+                    </div>
+                    <div class="p-overlay"></div>
+                  </div>
+                </a>
+              </li>
+              <!--/ single portfolio -->
+
+              <!-- Single Portfolio-->
+              <li class="single-port-item category-1 category-2">
+                <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-title="Binge" data-content="Your guide to a full night of consumption. Submit and review user-generated food/drink pairings with popular TV series, movies and books." data-tech="Javascript, JQuery, Sequelize, Bootstrap, Passport.js, Herokuapp" data-demo-link="https://binge-everything.herokuapp.com/" data-repo-link="https://github.com/dmaddox/Binge">
+                  <div class="protfolio-image">
+                    <img src="images/thumb_binge.png" alt="Binge">
+                    <div class="protfolio-content waves-effect waves-block waves-light">
+                      <div class="protfolio-content__inner">
+                        <h2 class="p-title">Binge</h2>
+                      </div>
+                    </div>
+                    <div class="p-overlay"></div>
+                  </div>
+                </a>
+              </li>
+              <!--/ single portfolio -->
               
               <!-- Single Portfolio-->
                 <li class="single-port-item category-1 category-3">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-title="Tipsy - Your Virtual Bartender" data-content="A cocktail recipe search engine based on the alcohol and mixers you have on hand. Tech: JavaScript, JQuery, TheCocktailDB API, WalMartLabs API, Slick Carousel JS Library, Bootstrap " data-demo-link="https://dmaddox.github.io/Tipsy/" data-repo-link="https://github.com/dmaddox/Tipsy/"> <!-- Portfolio pop-up content-->
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-title="Tipsy - Your Virtual Bartender" data-content="A cocktail recipe search engine based on the alcohol and mixers you have on hand." data-tech="JavaScript, JQuery, TheCocktailDB API, WalMartLabs API, Slick Carousel JS Library, Bootstrap" data-demo-link="https://dmaddox.github.io/Tipsy/" data-repo-link="https://github.com/dmaddox/Tipsy/"> <!-- Portfolio pop-up content-->
                     <div class="protfolio-image">
-                      <img src="images/tipsy.jpeg" alt="Tipsy Virtual Bartender"> <!-- portfolio thumbnail-->
+                      <img src="images/thumb_tipsy.png" alt="Tipsy Virtual Bartender"> <!-- portfolio thumbnail-->
                       <div class="protfolio-content waves-effect waves-block waves-light">
                         <div class="protfolio-content__inner">
                           <h2 class="p-title">Tipsy</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li>
-                <!--/ single portfolio -->
-
-                <!-- Single Portfolio-->
-                <li class="single-port-item category-2 category-1">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-title="New York Times Search" data-content="Search for New York Times articles by keyword and save your favorites. Tech: JavaScript, MERN, herokuapp, JawsDB" data-demo-link="https://dry-eyrie-30922.herokuapp.com/" data-repo-link="https://github.com/dmaddox/NYT-React-Search">
-                    <div class="protfolio-image">
-                      <img src="images/nyt.jpeg" alt="New York Times Search">
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">New York Times Search</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li>
-                <!--/ single portfolio -->
-
-                <!-- Single Portfolio-->
-                <li class="single-port-item category-1 category-2">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-title="Intergalactic Train Station" data-content="An administrator facing tool for scheduling and reviewing shuttle launches. Tech: JavaScript, JQuery, Google Firebase, Moment.js, Bootstrap" data-demo-link="https://dmaddox.github.io/TrainScheduler/" data-repo-link="https://github.com/dmaddox/TrainScheduler">
-                    <div class="protfolio-image">
-                      <img src="images/intergalactic.jpg" alt="portfolio">
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">Intergalactic Train Station</h2>
                         </div>
                       </div>
                       <div class="p-overlay"></div>
@@ -272,21 +277,29 @@
                     <!-- WIP -->
                     <ul class="skills_ul">
                       <li class="skills-icon"><i class="icon-javascript"></i><p>JavaScript</p>
-                      </li>
+                        </li>
                       <li class="skills-icon"><i class="icon-jquery"></i><p>JQuery</p>
-                      </li>
+                        </li>
                       <li class="skills-icon"><i class="icon-nodejs"></i><p>Node.js</p>
-                      </li>
+                        </li>
+                      <li class="skills-icon"><i class="icon-npm"></i><p>NPM</p>
+                        </li>
+                      <li class="skills-icon"><i class="icon-reactjs"></i><p>React</p>
+                        </li>
                       <li class="skills-icon"><i class="icon-css3"></i><p>CSS3</p>
-                      </li>
+                        </li>
                       <li class="skills-icon"><i class="icon-html5"></i><p>HTML5</p>
-                      </li>
+                        </li>
                       <li class="skills-icon"><i class="icon-bootstrap"></i><p>Bootstrap</p>
-                      </li>
-                      <li class="skills-icon"><i class="fa fa-git-square"></i><p>Git</p>
-                      </li>
+                        </li>
                       <li class="skills-icon"><i class="fa fa-github"></i><p>GitHub</p>
-                      </li>
+                        </li>
+                      <li class="skills-icon"><i class="fa fa-git-square"></i><p>Git</p>
+                        </li>
+                      <li class="skills-icon"><i class="icon-mongodb"></i><p>MongoDB</p>
+                        </li>
+                      <li class="skills-icon"><i class="icon-mysql"></i><p>MySQL</p>
+                        </li>
                     </ul>
                     <!-- *** -->
                   </div>
