@@ -204,7 +204,7 @@ $(document).ready(function($){
 
 	$('.menu-smooth-scroll').scrollingTo({
 		easing : 'easeOutQuart',
-		animationTime : 1800,
+		animationTime : 800,
 		callbackBeforeTransition : function(e){
 			if (e.currentTarget.hash !== "") {
 				if ( e.currentTarget.hash !== '#home' ) {
