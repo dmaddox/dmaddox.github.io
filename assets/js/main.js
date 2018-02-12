@@ -662,8 +662,8 @@ $(window).load(function(){
 			portfolioModal.openModal({
 				dismissible: true,
 				opacity: '.4',
-				in_duration: 400,
-				out_duration: 400,
+				in_duration: 200,
+				out_duration: 200,
 				ready: function() {
 					var imgSrc = $this.data('image-source'),
 					title = $this.data('title'),
@@ -689,7 +689,14 @@ $(window).load(function(){
 					
 					portLink.attr('href', demoLink);
 					gitLink.attr('href', repoLink);
-				}
+				},
+				complete: function() { 
+					portTitle.text("");
+					portContent.text("");
+					portTech.text("");
+					portLink.attr('href', "#");
+					gitLink.attr('href', "#");
+				 }
 			});
 		});
 	}
