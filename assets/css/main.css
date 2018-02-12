@@ -759,9 +759,14 @@ header.nav.hide-menu {
   color: #000;
   text-align: center;
   padding-bottom: 25px;
+  background-color: red;
 }
 .skills-icon i {
   font-size: 4em;
+  margin: auto;
+}
+.skills-icon.lrg i {
+  font-size: 4.3em;
   margin: auto;
 }
 .skills-icon i:hover{
