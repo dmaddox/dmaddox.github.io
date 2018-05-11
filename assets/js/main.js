@@ -686,11 +686,15 @@ $(window).load(function(){
 						footLink2.text("Code Sample");
 						footLink1.attr('href', screenshotLink);
 						footLink2.attr('href', codeSampleLink);
+						footLink1.attr('target', "");
+						footLink2.attr('target', "");
 					} else if (demoLink && repoLink) {
 						footLink1.text("Demo");
 						footLink2.text("Repo");
 						footLink1.attr('href', demoLink);
 						footLink2.attr('href', repoLink);
+						footLink1.attr('target', "_blank");
+						footLink2.attr('target', "_blank");
 					}
 
 
