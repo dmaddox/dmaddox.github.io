@@ -929,6 +929,8 @@ header.nav.hide-menu {
     width: 30%;
     margin-right: .33%;
     margin-bottom: .33%;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .protfolio-item li a {
