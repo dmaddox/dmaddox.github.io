@@ -654,8 +654,8 @@ $(window).load(function(){
 			portContent = portfolioModal.find('.modal-content .m-content'),
 			portTech = portfolioModal.find('.modal-content .m-tech'),
 			portDeets = portfolioModal.find('.modal-content .m-deets'),
-			portLink = portfolioModal.find('.modal-footer .modal-demo'),
-			gitLink = portfolioModal.find('.modal-footer .modal-repo');
+			footLink1 = portfolioModal.find('.modal-footer .modal-link1'),
+			footLink2 = portfolioModal.find('.modal-footer .modal-link2');
 		
 		$('#protfolio-msnry').delegate('a.modal-trigger', 'click', function(e){
 			e.preventDefault();
@@ -672,12 +672,30 @@ $(window).load(function(){
 					tech = $this.data('tech').split(","),
 					deets = $this.data('deets'),
 					demoLink = $this.data('demo-link'),
-					repoLink = $this.data('repo-link');
+					repoLink = $this.data('repo-link'),
+					screenshotLink = $this.data('screenshot-link'),
+					codeSampleLink = $this.data('code_sample-link');
 
 
 					if ( imgSrc ) {
 						portImgArea.html('<img src="'+imgSrc+'" alt="Portfolio Image" />');
 					};
+
+					if (screenshotLink && codeSampleLink) {
+						footLink1.text("Screenshots");
+						footLink2.text("Code Sample");
+						footLink1.attr('href', screenshotLink);
+						footLink2.attr('href', codeSampleLink);
+						footLink1.attr('target', "");
+						footLink2.attr('target', "");
+					} else if (demoLink && repoLink) {
+						footLink1.text("Demo");
+						footLink2.text("Repo");
+						footLink1.attr('href', demoLink);
+						footLink2.attr('href', repoLink);
+						footLink1.attr('target', "_blank");
+						footLink2.attr('target', "_blank");
+					}
 
 
 					portTitle.text(title);
@@ -690,16 +708,14 @@ $(window).load(function(){
 						portTech.append(techItem);
 					}
 					
-					portLink.attr('href', demoLink);
-					gitLink.attr('href', repoLink);
+					footLink1.attr('href', demoLink);
+					footLink2.attr('href', repoLink);
 				},
 				complete: function() { 
 					portTitle.text("");
 					portContent.text("");
 					portTech.text("");
 					portDeets.text("");
-					portLink.attr('href', "#");
-					gitLink.attr('href', "#");
 				 }
 			});
 		});
