@@ -159,7 +159,8 @@ body {
     font-size: 16px;
     color: #fff;
     font-weight: 400;
-    background-color: #fafafa;
+    /*background-color: #fafafa;*/
+    background-color: #110a1f;
 }
 
 #preloader {
@@ -328,7 +329,7 @@ body {
 /*reusable classes */
 
 .title {
-    font-size: 48px;
+    font-size: 28px;
     line-height: 1.1;
     font-weight: 700;
     color: #333;
@@ -393,6 +394,7 @@ section.brand-bg .title {
  ----------------------------------- */
 
 header.nav {
+  background-color: #110a1f;
     box-shadow: 0 1px 6px rgba(0,0,0,.35);
     width: 100%;
     top: 0px;
@@ -645,6 +647,9 @@ header.nav.hide-menu {
     margin: 60px 0 0 0;
 }
 
+.person-about {
+  padding-right: 25px;
+}
 .person-about .title {
     margin-bottom: 15px;
 }
@@ -652,31 +657,37 @@ header.nav.hide-menu {
 .about-subtitle {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
   text-transform: uppercase;
 }
 
 .person-about .subtitle {
     font-weight: 100;
     font-size: 35px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 .person-img img {
-    border: 8px solid #fff;
-
+    border: 2px solid #afafaf;
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
 }
 
 .person-about p {
-  color: #727272;
+  color: #afafaf;
+  font-weight: 200;
   font-size: 18px;
   line-height: 28px;
-  margin-bottom: 35px;
+  /*margin-bottom: 35px;*/
+}
+.person-info {
+  text-align: center;
 }
 
 .person-info h5 {
-  border-bottom: 1px solid #eeeeee;
-  color: #727272;
+  border-bottom: .5px solid #afafaf;
+  color: #afafaf;
   font-size: 14px;
   margin-bottom: 12px;
   padding-bottom: 12px;
@@ -706,8 +717,13 @@ header.nav.hide-menu {
     margin-right: 8px;
 }
 
+.btn-floating {
+  background-color: #f882ff;
+}
+
 .about-social {
   margin: 25px 0 0;
+  text-align: center;
 }
 
 .about-social ul li {
@@ -717,6 +733,10 @@ header.nav.hide-menu {
 
 .about-social ul li a i{
    font-size: 14px;
+   color: #fff;
+}
+.about-social .fa {
+     color: #110a1f;
 }
 
 
@@ -729,7 +749,7 @@ header.nav.hide-menu {
 }
 
 #skill .sec-overlay {
-    background: rgba(255,255,255, .92);
+    background: rgba(17, 10, 31, .95);
     height: 100%;
     width: 100%;
     padding-top: 60px;
@@ -746,6 +766,9 @@ header.nav.hide-menu {
 
 .skill-left p {
     line-height: 30px;
+    font-weight: 200;
+    color: #afafaf;
+    font-size: 18px;
 }
 .skills_ul {
   width: 100%;
@@ -756,12 +779,12 @@ header.nav.hide-menu {
   line-height: 60px;
   margin-right: .33%;
   margin-bottom: .33%;
-  color: #000;
+  color: #afafaf;
   text-align: center;
   padding-bottom: 25px;
 }
 .skills-icon i {
-  font-size: 4em;
+  font-size: 3em;
   margin: auto;
 }
 .skills-icon.lrg i {
@@ -893,8 +916,8 @@ header.nav.hide-menu {
 }
 
 .portfolio-top .title {
-    color: #fff;
-    margin-bottom: 60px;
+    color: #00bcd4;
+    margin-bottom: 30px;
 }
 
 .portfolio-category {}
@@ -1315,7 +1338,7 @@ span.num {
     position: relative;
 }
 
-.funfact-box-inner  i {
+.funfact-box-inner  i {f
     color: #dbdbdb;
     font-size: 60px;
     margin-bottom: 13px;
